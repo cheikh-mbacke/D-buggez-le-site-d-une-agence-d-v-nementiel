@@ -24,4 +24,6 @@ const Menu = () => (
   </nav>
 );
 
+// CORRECTION : Correction des ancres pour mener correctement aux sections correspondantes.
+
 export default Menu;

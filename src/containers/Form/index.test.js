@@ -22,6 +22,7 @@ describe("When Events is created", () => {
         })
       );
       await screen.findByText("En cours");
+      // Ajout de waitFor pour attendre que la modale apparaisse avant de chercher le message. 
       await waitFor(() => {
         expect(screen.getByText("Envoyer")).toBeInTheDocument();
       });

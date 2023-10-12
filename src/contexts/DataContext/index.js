@@ -20,6 +20,7 @@ export const api = {
 export const DataProvider = ({ children }) => {
   const [error, setError] = useState(null);
   const [data, setData] = useState(null);
+  // Utilisation de useMemo pour afficher le dernier évènement (last) l.49.
   const last = useMemo(() => {
     if (!data) return null;
     return data.events?.reduce((mostRecent, event) => {
@@ -45,7 +46,7 @@ export const DataProvider = ({ children }) => {
       value={{
         data,
         error,
-        last,
+        last, // ajout de la value "last".
       }}
     >
       {children}

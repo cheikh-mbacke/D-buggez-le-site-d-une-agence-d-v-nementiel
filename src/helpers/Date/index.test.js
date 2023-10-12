@@ -1,5 +1,5 @@
 /**
- * 
+ * Ajout de tests unitaires pour vérifier si les bon mois sont retournés
  */
 import { getMonth } from ".";
 

@@ -1,3 +1,5 @@
+// CORRECTION : Correction des numéros : commencement à 0 et non à 1.
+
 export const MONTHS = {
   0: "janvier",
   1: "février",

@@ -1,7 +1,7 @@
 import Menu from "../../containers/Menu";
 import ServiceCard from "../../components/ServiceCard";
 import EventCard from "../../components/EventCard";
-import PeopleCard from "../../components/Logo/PeopleCard";
+import PeopleCard from "../../components/PeopleCard";
 
 import "./style.scss";
 import EventList from "../../containers/Events";
@@ -116,6 +116,7 @@ const Page = () => {
     </main>
     <footer data-testid="footer" className="row">
       { last && ( 
+      // Ajout de last pour afficher la dernière présentation, ajout de modal et modalEvent pour qu'une modale s'ouvre lors du clique 
       <div data-testid="event-card" className="col presta">
         <h3>Notre derniére prestation</h3>
           {!last ? (
@@ -145,16 +146,16 @@ const Page = () => {
         <div>01 23 45 67 89</div>
         <div>contact@77events.com</div>
         <div>
-          <a href="#twitch">
+          <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/327fbc38c8e878259c3ec35ef231517a">
             <Icon name="twitch" />
           </a>
-          <a href="#facebook">
+          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bbea4c9e40773b969fdb6e406059f853">
             <Icon name="facebook" />
           </a>
-          <a href="#twitter">
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/">
             <Icon name="twitter" />
           </a>
-          <a href="#youtube">
+          <a target="_blank" rel="noreferrer" href="https://www.youtube.com/">
             <Icon name="youtube" />
           </a>
         </div>
