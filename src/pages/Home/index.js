@@ -118,7 +118,7 @@ const Page = () => {
       { last && ( 
       // Ajout de last pour afficher la dernière présentation, ajout de modal et modalEvent pour qu'une modale s'ouvre lors du clique 
       <div data-testid="event-card" className="col presta">
-        <h3>Notre derniére prestation</h3>
+        <h3>Notre dernière prestation</h3>
           {!last ? (
             "Waiting last event..."
           ) : (
@@ -146,10 +146,10 @@ const Page = () => {
         <div>01 23 45 67 89</div>
         <div>contact@77events.com</div>
         <div>
-          <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/327fbc38c8e878259c3ec35ef231517a">
+          <a target="_blank" rel="noreferrer" href="https://www.twitch.tv/">
             <Icon name="twitch" />
           </a>
-          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/bbea4c9e40773b969fdb6e406059f853">
+          <a target="_blank" rel="noreferrer" href="https://www.facebook.com/">
             <Icon name="facebook" />
           </a>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/">

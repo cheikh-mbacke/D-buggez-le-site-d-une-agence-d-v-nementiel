@@ -25,7 +25,7 @@ const Slider = () => {
    * };
   */    
 
-  // Correction: ".length" sur "data?.focus" et non sur byDateDesc =  "data?.focus.sort" 
+  // Correction pour que le slider affiche la première image une fois arrivé à la dernière sans afficher de page blanche entre les 2
   const dataLength = data?.focus.length
 
   const nextCard = () => {
