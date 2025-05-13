@@ -1,18 +1,50 @@
-# 724 Events
+# 🎉 Débogage et amélioration d'un site événementiel
 
-![image](eventsIMG.png)
+![724 Events](./eventsIMG.png)
 
-## Contexte
-Vous êtes développeur front-end freelance, et l’agence évènementielle 724events vous contacte pour une mission.<br>
-L’agence souhaite publier la nouvelle version de son site vitrine.<br>
-Le design a été validé, et un premier développeur freelance a commencé l’intégration il y a quelques semaines.<br>
-Le site est fonctionnel, mais quelques bugs entravent le bon usage par les visiteurs. 724events fait donc appel à vous pour finaliser le travail.
+---
 
-## Mission
-Débuggez le site d'une agence d'événementiel
+## 🎯 Mission
 
-## Étapes du projet
-- Mettre en place l'environnement de développement
-- Installez React Developer Tools
-- Réparez les bugs
-- Rédigez le cahier de recette
+Déboguer et améliorer le site vitrine de l'agence **724 Events** pour corriger les erreurs et optimiser les performances.
+
+---
+
+## 🛠️ Étapes du projet
+
+1. **Mettre en place l'environnement de développement**
+2. **Installer les outils de développement React**
+3. **Réparer les bugs identifiés**
+4. **Rédiger le cahier de recette pour valider les corrections**
+
+---
+
+## 🚀 Installation et démarrage
+
+### Prérequis
+
+* **Node.js**
+* **React Developer Tools** (extension navigateur)
+
+### Installation
+
+1. **Cloner le dépôt :**
+
+   ```bash
+   git clone https://github.com/cheikh-mbacke/D-buggez-le-site-d-une-agence-d-v-nementiel.git
+   cd D-buggez-le-site-d-une-agence-d-v-nementiel
+   ```
+
+2. **Installer les dépendances :**
+
+   ```bash
+   npm install
+   ```
+
+3. **Lancer l'application en mode développement :**
+
+   ```bash
+   npm start
+   ```
+
+   L'application sera accessible sur **[http://localhost:3000](http://localhost:3000)**.
